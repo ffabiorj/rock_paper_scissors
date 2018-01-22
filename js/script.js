@@ -4,6 +4,7 @@
 
     // function start the game.
     function game(){
+
         var $choice = document.querySelectorAll('[data-js="choice"]');
         var $playScore = document.querySelector('#playerScore');
         var $computerScore = document.querySelector('#computerScore');
@@ -11,6 +12,7 @@
         var $zero = document.querySelector('[data-js="zero"]');
         var $information = document.querySelector('#information');
 
+        
         function computerPlay() {
             var games = ['rock', 'paper', 'scissors'];
             var numbers = Math.floor(Math.random() * 2);
@@ -28,8 +30,6 @@
         });
         
         function playRound(playerSelection, computerSelection) {
-            console.log(playerSelection);
-            console.log(computerSelection);
             
             var game = {
                 rock: {'scissors': true, 'paper': false},
