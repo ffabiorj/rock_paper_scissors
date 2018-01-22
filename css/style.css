@@ -60,8 +60,9 @@ img {
 #information {
     margin-top: 5px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 20px;
+    min-height: 50px;
 }
 
 #button {
